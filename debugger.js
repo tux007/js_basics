@@ -3,11 +3,9 @@ let count = 0;
 function init() {
   // debuggerOutput('A');
   // debuggerOutput('A');
-  testOne();
+  // testOne();
   debuggerOutput("init");
-  testOne();
   testTwo("testTwo");
-  testOne();
 }
 
 function testOne() {
@@ -20,7 +18,7 @@ function testOne() {
 
 function testTwo(text) {
   debuggerOutput(text);
-  testOne();
+  // testOne();
   // debuggerOutput('C');
   // debuggerOutput('C');
 }

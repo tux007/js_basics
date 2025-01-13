@@ -22,14 +22,14 @@
         }
     </style>
   </head>
-  <body onload="scopeTest()">
-    
-    <h1 id="website_title">Der Titel der Website</h1>
+  <body onload="testOne()">
+
+    <h1 onclick="testOne()" id="website_title">Der Titel der Website</h1>
     <div class="green_bg" id="test_div"></div>
     <input id="test_input" type="number" value="5" />
     <p id="our_p_tag">ich bin das p tag</p>
     <button onclick="toggleDNone('our_p_tag')">bitte ausführen</button>
-    <input type="text" onchange="console.log('input changed')">
+    <input type="text" onkeydown="testOne()" onchange="console.log('input changed')">
     <input type="checkbox" onchange="console.log('checkbox changed')">
     
     <p id="debugger_log"></p>
